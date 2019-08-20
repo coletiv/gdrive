@@ -37,7 +37,7 @@ defmodule Gdrive.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:goth, "~> 0.8.2"},
+      {:goth, "~> 1.0"},
       {:httpoison, "~> 1.5.1"},
       {:mime, "~> 1.2"},
       {:ex_doc, ">= 0.0.0", only: :dev}
